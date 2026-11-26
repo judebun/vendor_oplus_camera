@@ -57,9 +57,18 @@ Keep proprietary material local unless you have permission to redistribute it.
 
 Clone this tree at `vendor/oplus/camera`. The lafa device tree inherits
 `lafa/opluscamera.mk` when `WITH_OPLUS_CAMERA=true`. For that product, add
-`lafa/sepolicy` to `SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS` and select the patched
+`lafa/sepolicy` to `SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS`, add
+`lafa/sepolicy/vendor` to `BOARD_VENDOR_SEPOLICY_DIRS`, and select the patched
 camera unit configuration before inheriting the stock ODM copy.
 `sm8850-common` supplies the `oplus-fwk` boot library.
+The generated OplusCamera import overrides Aperture, its launcher and overlay,
+and Camera2 so that the product installs one camera application.
+
+The image must include the camera identification properties from
+`opluscamera.mk` and the library labels in `lafa/sepolicy/vendor/file_contexts`.
+The working runtime tests used `same_process_hal_file` for these libraries.
+Copying their bytes into ODM with the generic `vendor_file` label prevents the
+camera app from loading APS and the GR filter library under enforcing SELinux.
 
 The accompanying source changes in `hardware/oplus/oplus-fwk` and `frameworks/av`
 are required. They add the Java wrappers, two verified OEM state constants, and
@@ -118,8 +127,8 @@ changes. Do not install this platform-signed APK over the manufacturer's camera
 on official firmware. Use a separately bootable custom/DSU test system with
 rollback available. Do not replace stock boot or vendor images for this test.
 
-Verify app startup, preview, ordinary JPEG saving, lens switching, video and
-gallery entry, then inspect crashes and SELinux denials. Specifically confirm
-Aperture continues to work and that launching a gallery from the locked camera
-cannot reveal older photos. A successful component build is not a claim that
-these checks have passed.
+Verify app startup, preview, ordinary JPEG saving, lens switching, video,
+GR filters and gallery entry, then inspect crashes and SELinux denials.
+Confirm that launching a gallery from the locked camera preserves the lock
+screen's access restrictions. Record image boot validation separately from
+component and filesystem checks.

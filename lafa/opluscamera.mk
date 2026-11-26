@@ -23,12 +23,13 @@ PRODUCT_COPY_FILES += \
     $(OPLUS_CAMERA_LAFA_PATH)/configs/default-permissions/oplus-camera-lafa.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus-camera-lafa.xml \
     $(OPLUS_CAMERA_LAFA_PATH)/configs/init/init.oplus.camera-lafa.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.oplus.camera-lafa.rc
 
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.vendor.camera.privapp.list=com.oplus.camera \
-    ro.oplus.system.camera.name=com.oplus.camera \
-    vendor.camera.skip_unconfigure.packagelist=com.oplus.camera
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.oplus.system.camera.name=com.oplus.camera
 
-PRODUCT_VENDOR_PROPERTIES += persist.vendor.oplus.quickjpeg.bypass=1
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.camera.privapp.list=com.oplus.camera \
+    vendor.camera.skip_unconfigure.packagelist=com.oplus.camera \
+    persist.vendor.oplus.quickjpeg.bypass=1
 
 # sm8850-common already inherits oplus-fwk.mk on this device.
 $(call inherit-product, $(OPLUS_CAMERA_LAFA_PATH)/blobs/blobs-vendor.mk)

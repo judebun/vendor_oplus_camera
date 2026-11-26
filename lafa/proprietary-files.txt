@@ -1,6 +1,6 @@
 # realme GT8 Pro / lafa, RMX5200 B.25a1b69, Android 17.
 # Source SHA-256 inventory is in stock-manifest.json.
-# Preserve Aperture. No high-megapixel or sensor-mode patches.
+# The generated OplusCamera import replaces the stock camera apps.
 
 # Camera APK
 my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk
@@ -65,6 +65,6 @@ system_ext/lib64/libvr_amb_engine.so;MODULE_SUFFIX=_oplus_camera
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so;MODULE_SUFFIX=_oplus_camera
 system/lib64/vendor.oplus.hardware.cameraextension@1.0.so:system_ext/lib64/vendor.oplus.hardware.cameraextension@1.0.so;MODULE_SUFFIX=_oplus_camera
 
-# Camera unit SDK (stock, no sensor sequencing bypass)
+# Camera unit SDK inputs
 my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:system_ext/framework/com.oplus.camera.unit.sdk.jar
 my_product/product_overlay/framework/com.oplus.camera.unit.sdk.adapter.jar:system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar

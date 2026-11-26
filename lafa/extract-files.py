@@ -90,7 +90,17 @@ if __name__ == '__main__':
     bp = HERE / 'blobs/Android.bp'
     value = bp.read_text()
     pattern = re.compile(r'(android_app_import\s*\{\s*name:\s*"OplusCamera",)')
-    value, count = pattern.subn(r'\1\n    // OEM runtime shared SDKs are dex_import modules, not Java classpath libraries.\n    enforce_uses_libs: false,', value)
+    value, count = pattern.subn(
+        r'\1\n    overrides: ['
+        r'\n        "Aperture",'
+        r'\n        "ApertureLensLauncher",'
+        r'\n        "ApertureFrameworksBaseOverlay",'
+        r'\n        "initial-package-stopped-states-org.lineageos.aperture",'
+        r'\n        "preinstalled-packages-org.lineageos.aperture",'
+        r'\n        "Camera2",'
+        r'\n    ],'
+        r'\n    // OEM runtime shared SDKs are dex_import modules, not Java classpath libraries.'
+        r'\n    enforce_uses_libs: false,', value)
     if count != 1:
         raise ValueError('Expected one generated OplusCamera import')
     bp.write_text(value)
