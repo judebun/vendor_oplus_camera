@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Stock lafa init.camera_process.rc is already supplied by vendor/realme/lafa.
+# APS deferred JPEG storage is additional to the vendor camera_process tree.
+on post-fs-data
+    mkdir /data/system/camera_rus 0770 cameraserver camera
+    mkdir /data/vendor/camera_rus 0770 camera camera

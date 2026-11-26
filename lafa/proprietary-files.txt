@@ -1,0 +1,70 @@
+# realme GT8 Pro / lafa, RMX5200 B.25a1b69, Android 17.
+# Source SHA-256 inventory is in stock-manifest.json.
+# Preserve Aperture. No high-megapixel or sensor-mode patches.
+
+# Camera APK
+my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk
+
+# App-side native libraries (separate Soong names, original installed SONAMEs)
+my_product/lib64/libAPSClient-alog-jni.so:system_ext/lib64/libAPSClient-alog-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAPSClient-cmd-jni.so:system_ext/lib64/libAPSClient-cmd-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAPSClient-jni.so:system_ext/lib64/libAPSClient-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAncFilter_jni.so:system_ext/lib64/libAncFilter_jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAncHumBokeh-jni.so:system_ext/lib64/libAncHumBokeh-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAncHumanDoubleExposure-jni.so:system_ext/lib64/libAncHumanDoubleExposure-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAncHumanRetain-jni_v2.so:system_ext/lib64/libAncHumanRetain-jni_v2.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAncHumanSegFigureFusion-jni.so:system_ext/lib64/libAncHumanSegFigureFusion-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAncHumanVideo-jni.so:system_ext/lib64/libAncHumanVideo-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libApsFaceBeautyPreviewProductJni.so:system_ext/lib64/libApsFaceBeautyPreviewProductJni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libApsSuperEISPreviewJni.so:system_ext/lib64/libApsSuperEISPreviewJni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAvatarEngineRender.so:system_ext/lib64/libAvatarEngineRender.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libAvatarEngineRenderNative.so:system_ext/lib64/libAvatarEngineRenderNative.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libCombineLut.so:system_ext/lib64/libCombineLut.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libCombineLutJni.so:system_ext/lib64/libCombineLutJni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libFileExtender-jni.so:system_ext/lib64/libFileExtender-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libMsEffectSdk.so:system_ext/lib64/libMsEffectSdk.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libOplusBlurPreviewJNI.so:system_ext/lib64/libOplusBlurPreviewJNI.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libOplusStringJNI.so:system_ext/lib64/libOplusStringJNI.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libSuperTextWrapper.so:system_ext/lib64/libSuperTextWrapper.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libXDocProcessSDK-jni.so:system_ext/lib64/libXDocProcessSDK-jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libXDocProcessSDK.so:system_ext/lib64/libXDocProcessSDK.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libYTCommon.so:system_ext/lib64/libYTCommon.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libarcsoft_panorama_burstcapture.so:system_ext/lib64/libarcsoft_panorama_burstcapture.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libarcsoft_wideselfie.so:system_ext/lib64/libarcsoft_wideselfie.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libextendfile.so:system_ext/lib64/libextendfile.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libjni_burstpmk.so:system_ext/lib64/libjni_burstpmk.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libjni_wideselfie.so:system_ext/lib64/libjni_wideselfie.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libjnisingleblur_api.so:system_ext/lib64/libjnisingleblur_api.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libjnistblur_api.so:system_ext/lib64/libjnistblur_api.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/liblivephoto.frc.jni.so:system_ext/lib64/liblivephoto.frc.jni.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libmpbase.so:system_ext/lib64/libmpbase.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libsingle_camera_bokeh2_native.so:system_ext/lib64/libsingle_camera_bokeh2_native.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libsingle_camera_bokeh_native.so:system_ext/lib64/libsingle_camera_bokeh_native.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libst_mobile.so:system_ext/lib64/libst_mobile.so;MODULE_SUFFIX=_oplus_camera
+my_product/lib64/libst_sticker_jni.so:system_ext/lib64/libst_sticker_jni.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libAPSClient-cmd-jni-extension.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libHeifEncoderWrapper.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libHeifWinBufExchg-jni.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libNativeWinBuffExchange.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libOplusStringJNI-extension.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libapssuspend-jni.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libbinauralrenderer_wrapper.qti.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libbsproxy.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libcsextimpl.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libhoaeffects.qti.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libhoaeffects_csim.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/liboplus-uah-client.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/liboplusheifwriter.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libortc_so.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libpenguin.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libsatellite_audio_jni.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libsoundtouch.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libsoundtouch_jni.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libsuperNight.oplus.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/libvr_amb_engine.so;MODULE_SUFFIX=_oplus_camera
+system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so;MODULE_SUFFIX=_oplus_camera
+system/lib64/vendor.oplus.hardware.cameraextension@1.0.so:system_ext/lib64/vendor.oplus.hardware.cameraextension@1.0.so;MODULE_SUFFIX=_oplus_camera
+
+# Camera unit SDK (stock, no sensor sequencing bypass)
+my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:system_ext/framework/com.oplus.camera.unit.sdk.jar
+my_product/product_overlay/framework/com.oplus.camera.unit.sdk.adapter.jar:system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar

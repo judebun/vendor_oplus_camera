@@ -1,0 +1,313 @@
+{
+  "model": "RMX5200",
+  "device": "lafa",
+  "firmware": "B.25a1b69_12ba59_12adc4",
+  "camera": "7.006.309",
+  "files": [
+    {
+      "path": "my_product/app/OplusCamera/OplusCamera.apk",
+      "bytes": 198695931,
+      "sha256": "1d850c7d93e2ac1826ea6f97940c47cbcbd5fdb1c559df5a56e3e558036cd732"
+    },
+    {
+      "path": "my_product/lib64/libAPSClient-alog-jni.so",
+      "bytes": 345992,
+      "sha256": "b3c60f0d731c8ff4475a3053bc282c31a5ce97b59e72356974c6804abff00131"
+    },
+    {
+      "path": "my_product/lib64/libAPSClient-cmd-jni.so",
+      "bytes": 1115608,
+      "sha256": "559cd5e9fc533cbce3cc3390cecad74127167daaf3e964e0cec424fcbc3eff9c"
+    },
+    {
+      "path": "my_product/lib64/libAPSClient-jni.so",
+      "bytes": 1111808,
+      "sha256": "f108594528f2c191d2ce59165d20335415d87233fd1d681625897058e7414047"
+    },
+    {
+      "path": "my_product/lib64/libAncFilter_jni.so",
+      "bytes": 817352,
+      "sha256": "6a7c9150300ef9daec97ca7eae1917d119ef89710fa5c9f40687db05f17b99a0"
+    },
+    {
+      "path": "my_product/lib64/libAncHumBokeh-jni.so",
+      "bytes": 264616,
+      "sha256": "6c8593cc045e59fa38cbe7e2a09984f63779dfc58cb3521a68cd356d3ed9a7df"
+    },
+    {
+      "path": "my_product/lib64/libAncHumanDoubleExposure-jni.so",
+      "bytes": 330016,
+      "sha256": "a85f011191b93e589db6b89c7f686f1fc4dcbe2a54d3040b3588bef8002d1878"
+    },
+    {
+      "path": "my_product/lib64/libAncHumanRetain-jni_v2.so",
+      "bytes": 321824,
+      "sha256": "a215ec369939e920325aa1109a16df5d510136dc338c906e24fe809acf9aa851"
+    },
+    {
+      "path": "my_product/lib64/libAncHumanSegFigureFusion-jni.so",
+      "bytes": 253976,
+      "sha256": "af7f8d7d40174d6052d833a96104c2cb0925bd1cd15b47e16ebdc73c0cf33a14"
+    },
+    {
+      "path": "my_product/lib64/libAncHumanVideo-jni.so",
+      "bytes": 264536,
+      "sha256": "369e7f0db2b1b57c574cbdced5b2188a8362fb7aa9116ee0c178730e71821de1"
+    },
+    {
+      "path": "my_product/lib64/libApsFaceBeautyPreviewProductJni.so",
+      "bytes": 688848,
+      "sha256": "299f6435059c7372c035631c654a7b4dee62b9c14d0df605ca340077d36f6e6d"
+    },
+    {
+      "path": "my_product/lib64/libApsSuperEISPreviewJni.so",
+      "bytes": 511504,
+      "sha256": "081b2d5f280bc10cf0dd53454d35959b7966e177470d088e1e95046610c7a01c"
+    },
+    {
+      "path": "my_product/lib64/libAvatarEngineRender.so",
+      "bytes": 2922880,
+      "sha256": "8c3484834fe71fc5e5b288dac64b98b916a678d5eebee60e843560eb04608c88"
+    },
+    {
+      "path": "my_product/lib64/libAvatarEngineRenderNative.so",
+      "bytes": 2935440,
+      "sha256": "744fdcf12260b43a7198292831bb11e8ef7c96deda0d460f4357c64e8e01e29c"
+    },
+    {
+      "path": "my_product/lib64/libCombineLut.so",
+      "bytes": 429512,
+      "sha256": "b40ce6ea58429abfd28c20647331db482903a2f61eba160b1a06f5952384c385"
+    },
+    {
+      "path": "my_product/lib64/libCombineLutJni.so",
+      "bytes": 9928,
+      "sha256": "f4546b83fcaf6a5228ebd74dd6b7fddaf561516ef41afd7eb30af39def7f2f7c"
+    },
+    {
+      "path": "my_product/lib64/libFileExtender-jni.so",
+      "bytes": 18008,
+      "sha256": "9129fc698e46d6aad83f67d71596dace97a2a7cf3843a76252a9514b0353fe9b"
+    },
+    {
+      "path": "my_product/lib64/libMsEffectSdk.so",
+      "bytes": 379800,
+      "sha256": "4a07cfac48b7f13477a225df01b2678781b614a01944ff6501efef8f944c99a1"
+    },
+    {
+      "path": "my_product/lib64/libOplusBlurPreviewJNI.so",
+      "bytes": 435600,
+      "sha256": "3f5452b91f58b0c597d09dc70fa6c1393da1fde4b5a86b90f03333e10a547728"
+    },
+    {
+      "path": "my_product/lib64/libOplusStringJNI.so",
+      "bytes": 350712,
+      "sha256": "ef4bdf1d49e98b308689084c59d07140a248eeb2534a498212449923563a1b92"
+    },
+    {
+      "path": "my_product/lib64/libSuperTextWrapper.so",
+      "bytes": 1383704,
+      "sha256": "a9e46e888a703e57882715cc9ba67a68a0ac920367bad2447baa9b69ccb5686a"
+    },
+    {
+      "path": "my_product/lib64/libXDocProcessSDK-jni.so",
+      "bytes": 366968,
+      "sha256": "36d5da1a5f7b8b6937a68d6db9d54a436b0b19a2670a9c3ccea5777005de9733"
+    },
+    {
+      "path": "my_product/lib64/libXDocProcessSDK.so",
+      "bytes": 6958712,
+      "sha256": "b7a1f664880bef6f404533623331522793a9eafdf76df37eef4ba2d909fc4afa"
+    },
+    {
+      "path": "my_product/lib64/libYTCommon.so",
+      "bytes": 813392,
+      "sha256": "56be5fbd6c7df8902f47bdbe507df7ec5be840db4b34a540fd22d009948e0542"
+    },
+    {
+      "path": "my_product/lib64/libarcsoft_panorama_burstcapture.so",
+      "bytes": 633192,
+      "sha256": "502d65b2db056d1d6b2708e01dd99254504b0ea7037078c443e2e9337107f4ac"
+    },
+    {
+      "path": "my_product/lib64/libarcsoft_wideselfie.so",
+      "bytes": 2627856,
+      "sha256": "d9b0413d316178a6e43ad0ec49ffc675f725ea66058b700d943a40b8c5eca0c5"
+    },
+    {
+      "path": "my_product/lib64/libextendfile.so",
+      "bytes": 977112,
+      "sha256": "c3d2eb0916fdb62947877fe57916a905005c576b64d1dca733458ada11a91c36"
+    },
+    {
+      "path": "my_product/lib64/libjni_burstpmk.so",
+      "bytes": 26712,
+      "sha256": "b69b2a7eebb2df0a90822ce0bf38716e78fd2ee20c4b392f3f80f37e4fab4aae"
+    },
+    {
+      "path": "my_product/lib64/libjni_wideselfie.so",
+      "bytes": 26688,
+      "sha256": "654d44fa4bd00f359002421c2d05f5f4610bf6d4d1eaa9f4dcd4f17d5fa24405"
+    },
+    {
+      "path": "my_product/lib64/libjnisingleblur_api.so",
+      "bytes": 481320,
+      "sha256": "1cf51f84c452b696edd5f5fca653e6f1b4ae5b542a7c48b35187162ab15335e3"
+    },
+    {
+      "path": "my_product/lib64/libjnistblur_api.so",
+      "bytes": 497704,
+      "sha256": "3f1f1ff3c89905696e43371733fc9ef06f566cb88844a3e6725cb9d491acec1b"
+    },
+    {
+      "path": "my_product/lib64/liblivephoto.frc.jni.so",
+      "bytes": 368488,
+      "sha256": "097bb6e1d0f1462ac098e85ad87efccba02568b144f12c7a55ccaccc5cdae5f2"
+    },
+    {
+      "path": "my_product/lib64/libmpbase.so",
+      "bytes": 67168,
+      "sha256": "8605df6a424e27f81b889a8ba36d827e3845c03bae94594cc64c8529a540f9c7"
+    },
+    {
+      "path": "my_product/lib64/libsingle_camera_bokeh2_native.so",
+      "bytes": 1026248,
+      "sha256": "77a637039b98cccdbcbdd7c9316e14ed16c8b8cf9ef0d1fcc47b4fbb306c3773"
+    },
+    {
+      "path": "my_product/lib64/libsingle_camera_bokeh_native.so",
+      "bytes": 1143600,
+      "sha256": "dc66f87870257c0493cd25bc7d4ffda80199901d71afa068bd9bedea0813feae"
+    },
+    {
+      "path": "my_product/lib64/libst_mobile.so",
+      "bytes": 7895520,
+      "sha256": "a3455d5a2f35f467acd7d183d23a60b52d79d002e029b61b2079385ba60806cd"
+    },
+    {
+      "path": "my_product/lib64/libst_sticker_jni.so",
+      "bytes": 284672,
+      "sha256": "19b28f651871239b6df0ad1a7da657cbdd4e7817f223abbfc169e52df10a6526"
+    },
+    {
+      "path": "system_ext/lib64/libAPSClient-cmd-jni-extension.oplus.so",
+      "bytes": 1099512,
+      "sha256": "91eb27cbeec32fdc606a635e76736bea92cbad7a3cb36bc13c27f7c9d980dc87"
+    },
+    {
+      "path": "system_ext/lib64/libHeifEncoderWrapper.so",
+      "bytes": 22896,
+      "sha256": "ac5336b87acf75f70dda303c12559dc94de9fb115498240217a43a3b3d4fef72"
+    },
+    {
+      "path": "system_ext/lib64/libHeifWinBufExchg-jni.so",
+      "bytes": 4920,
+      "sha256": "633f94c7f4099ca43a717baba0353936ebab00c647f55bbf5bf0d93cfb5908db"
+    },
+    {
+      "path": "system_ext/lib64/libNativeWinBuffExchange.so",
+      "bytes": 14768,
+      "sha256": "da09c41a75488df8a08fa8db3fb52c7322b6bd895a65d8b06dc51ed595560952"
+    },
+    {
+      "path": "system_ext/lib64/libOplusStringJNI-extension.oplus.so",
+      "bytes": 11568,
+      "sha256": "e72defa961afd8828aa40f9acd936a77c1ff8b722a98baacdfd44dddc55f2633"
+    },
+    {
+      "path": "system_ext/lib64/libapssuspend-jni.oplus.so",
+      "bytes": 23616,
+      "sha256": "d4ae8f46dc93b9b97b19a8343b4bbc7f2bad07b714d4d142769a97233b1509b2"
+    },
+    {
+      "path": "system_ext/lib64/libbinauralrenderer_wrapper.qti.so",
+      "bytes": 27008,
+      "sha256": "4f4687adcdc194f56920c4be05deb20ffb6ed25c3854aa736f1ace9c9d99b383"
+    },
+    {
+      "path": "system_ext/lib64/libbsproxy.so",
+      "bytes": 60296,
+      "sha256": "ebd57facd664cbc69517764cace4f810eb826e07fa5da59cfbd264b7cd7c5f47"
+    },
+    {
+      "path": "system_ext/lib64/libcsextimpl.so",
+      "bytes": 1565728,
+      "sha256": "799d93ed254393a1c40356aaf4b5e1ae96bfbcd32b8e16d627d6067ac7449784"
+    },
+    {
+      "path": "system_ext/lib64/libhoaeffects.qti.so",
+      "bytes": 27256,
+      "sha256": "b24917c0a137b04ee764e28b3463e561447e30db65ebfa70a143ef074939259d"
+    },
+    {
+      "path": "system_ext/lib64/libhoaeffects_csim.so",
+      "bytes": 1298296,
+      "sha256": "c7b0fba465b0b22d834d993179e051b4ffc947a5e95246e8d964f29aac281101"
+    },
+    {
+      "path": "system_ext/lib64/liboplus-uah-client.so",
+      "bytes": 173000,
+      "sha256": "5a14eb9bc00e92f0eaebf219f4d4424936ec9444ad64e3464862536c0ef7dd88"
+    },
+    {
+      "path": "system_ext/lib64/liboplusheifwriter.so",
+      "bytes": 178200,
+      "sha256": "ebff86619e87236d3cbbefb22f962e55aaad1dfcfd8d69d92ac32e40ec58d5ca"
+    },
+    {
+      "path": "system_ext/lib64/libortc_so.oplus.so",
+      "bytes": 18120,
+      "sha256": "7b788e58895bc4da8e361395bd9d7cb1e6a3125bba2e45313e3ec5e381df064a"
+    },
+    {
+      "path": "system_ext/lib64/libpenguin.so",
+      "bytes": 19056,
+      "sha256": "fdd862b59d7f851f9a124c9d20425ebc0710f66891f2f0432c392a8444eb5ca3"
+    },
+    {
+      "path": "system_ext/lib64/libsatellite_audio_jni.oplus.so",
+      "bytes": 784392,
+      "sha256": "b02550c22a0da6965308e575e7cba5efbc853bcac8a64bc833c2d07672860b09"
+    },
+    {
+      "path": "system_ext/lib64/libsoundtouch.oplus.so",
+      "bytes": 18120,
+      "sha256": "7b788e58895bc4da8e361395bd9d7cb1e6a3125bba2e45313e3ec5e381df064a"
+    },
+    {
+      "path": "system_ext/lib64/libsoundtouch_jni.oplus.so",
+      "bytes": 18120,
+      "sha256": "7b788e58895bc4da8e361395bd9d7cb1e6a3125bba2e45313e3ec5e381df064a"
+    },
+    {
+      "path": "system_ext/lib64/libsuperNight.oplus.so",
+      "bytes": 7824,
+      "sha256": "7f36427f44ca507e2694ccd60b9cd30ac38b8b9fb2e31a5e7c058e3939c7d949"
+    },
+    {
+      "path": "system_ext/lib64/libvr_amb_engine.so",
+      "bytes": 1319064,
+      "sha256": "3c0f107ead89a802f139bdec6e3e7f03d024b8b60ec31415cb6c5412a38ae3a8"
+    },
+    {
+      "path": "system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so",
+      "bytes": 90120,
+      "sha256": "b3b517b28b9cc597c595cea927285860cdf2968feb2a6983f1e8bcaa77b40069"
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.cameraextension@1.0.so",
+      "bytes": 77560,
+      "sha256": "2cb8ea10e7ace4449f12d83a7a66fcf24fef46c2202cb7f9401cd2bfc6ce7d33"
+    },
+    {
+      "path": "my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar",
+      "bytes": 5355815,
+      "sha256": "f754c922a1bd2df7d81df725565823aa865806196197d890b3c420f839eb327f"
+    },
+    {
+      "path": "my_product/product_overlay/framework/com.oplus.camera.unit.sdk.adapter.jar",
+      "bytes": 2941643,
+      "sha256": "c33f3a63a868ef632b4a403a669b2b00f2bf7c711c00293edd1f33f6e430ddd3"
+    }
+  ]
+}
